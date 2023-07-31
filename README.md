@@ -8,6 +8,7 @@ nessus wazuh integration
 .4 integrate with other vulnerabilities instead of creating new ones
 .5 remove duplicates from greylog with rule
 .6 do soemthing for whitebox scans (what???)
+.7 fix timezone problem automatically
 
 # rules
 ```
