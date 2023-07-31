@@ -1,6 +1,14 @@
 # nessus_wazuh
 nessus wazuh integration
 
+# TODO
+.1 cronjob nessus update
+.2 change timeframe to not every day??
+.3 windows task scheduler wake for cronjob and for scan
+.4 integrate with other vulnerabilities instead of creating new ones
+.5 remove duplicates from greylog with rule
+.6 do soemthing for whitebox scans (what???)
+
 # rules
 ```
 <group name="nessus,network_scan">  
