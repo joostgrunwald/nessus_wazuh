@@ -12,7 +12,7 @@ def get_scan_id(scans, scan_name):
             return scan['id']  
     return None  
   
-url_base = "https://localhost:8837"  
+url_base = "https://localhost:8834"  
 headers = {  
     "X-ApiKeys": f"accessKey={accesshere}; secretKey={secrethere}",  
     "Content-Type": "application/json",  
